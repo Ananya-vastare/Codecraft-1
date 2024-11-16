@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.scss">
+  <script type="module" src="counter.js"></script>
+
+  <title>Vite App</title>
+</head>
+
+<body>
+  <h1 class="title">Codecraft Challenge</h1>
+  <br>
+
+  <div class="about">
+    <p>CodeCraft is a coding competition organized by <a href="https://www.rnsit.ac.in/" target="_blank">RNS Institute
+        of Technology</a>
+      where participants from various colleges solve real-world problems.
+      The event promotes innovation and challenges participants with complex problems.
+      In addition to the competition, it offers workshops to enhance coding skills and stay updated with industry
+      trends.
+      Participants also get the chance to network with professionals and win exciting prizes.
+    </p>
+  </div>
+  <section class="page">
+    <section>
+      <ul class="tabs-controls">
+        <li class="tabs-controls__item">
+          <a href="#" class="tabs-controls__link tabs-controls__link--active" data-id="1">Tab A</a>
+        </li>
+        <li class="tabs-controls__item">
+          <a href="#" class="tabs-controls__link" data-id="2">Tab B</a>
+        </li>
+        <li class="tabs-controls__item">
+          <a href="#" class="tabs-controls__link" data-id="3">Tab C</a>
+        </li>
+        <li class="tabs-controls__item">
+          <a href="#" class="tabs-controls__link" data-id="4">Tab D</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="cards-container">
+      <div class="card card--current" id="1">
+        <h1>A. Reverse Coding</h1>
+        <p>Challenge yourself to understand and rewrite code logic from scratch. Decode mysterious outputs and craft
+          working solutions.</p>
+      </div>
+      <div class="card" id="2">
+        <h1>B. Debugging</h1>
+        <p>Show off your debugging skills by identifying and fixing errors in provided codebases. A true test of
+          precision and patience.</p>
+      </div>
+      <div class="card" id="3">
+        <h1>C. Competitive Coding</h1>
+        <p>Compete with others in timed problem-solving tasks. Prove your proficiency in algorithms, data structures,
+          and optimization.</p>
+      </div>
+      <div class="card" id="4">
+        <h1>D. General Problem Solving</h1>
+        <p>Tackle real-world problems with creative and logical solutions. Show your versatility in addressing a variety
+          of challenges.</p>
+      </div>
+    </section>
+  </section>
+
+
+  <!-- Single Button -->
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfg2Z9pAT4V1tuQG_A3t3FnWmfS-0TWPA5fRUjNI1Uil_CYYQ/viewform"
+      class="register-btn" target="_blank">
+      Register for the Competition
+    </a>
+  </div>
+
+</body>
+
+</html>
